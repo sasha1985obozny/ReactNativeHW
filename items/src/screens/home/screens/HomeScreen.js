@@ -27,7 +27,7 @@ const mockProduct = [
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <View style={styles.itemBox}>
+      <View style={styles.itemWrapper}>
         <View style={styles.itemLeft}>
           <Image 
           style={styles.itemImg}
@@ -76,7 +76,7 @@ export default function HomeScreen() {
         </View>     
       </View>
 
-      <View style={styles.itemBox}>
+      <View style={styles.itemWrapper}>
         <View style={styles.itemLeft}>
           <Image 
           style={styles.itemImg}
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     width: 30,
     height: 30,
   },
-  itemBox: {
+  itemWrapper: {
     width: '90%',
     flexDirection: 'row',
     backgroundColor: '#f8eff0',
